@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidLab4Calculator</string>
+    <string name="add_numbers">Add numbers</string>
+    <string name="substract_numbers">Substract numbers</string>
+    <string name="multiply_numbers">Multiply numbers</string>
+    <string name="divide_numbers">Divide numbers</string>
+    <string name="insert_number">Insert number</string>
+    <string name="insert_number2">Insert number2</string>
+    <string name="total">Total</string>
+</resources>
