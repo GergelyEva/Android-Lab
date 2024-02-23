@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Story3"
+    android:background="#F7EDDC">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AS YOU SOW, SO SHALL YOU REAP "
+        android:paddingTop="15dp"
+
+    android:paddingLeft="70dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  One night, three thieves stole a lot of money from a rich man’s house. They put the money in a bag and went to the forest. They felt very hungry. So, one of them went to a nearby village to buy food. The other two remained in the forest to take care of the bag of money. The thief that went for food had an evil idea. He ate his food at a hotel. Then he bought food for his two mates in the forest. He mixed a strong poison with the food. He thought, “Those two will eat this poisoned food and die. Then I will get all the money for myself.” Meanwhile, the two wicked men in the forest decided to kill their mate on return. They thought that they would divide the money between the two of them. All the three wicked men carried out their cruel plans. The thief who wanted all the money for himself came to the forest with the poisoned food. The two men in the forest hit him and killed him. Then they ate the poisoned food and died. Thus, these evil people met with an evil end. Moral: Evil begets evil"
+        android:padding="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/story3" />
+
+</LinearLayout>

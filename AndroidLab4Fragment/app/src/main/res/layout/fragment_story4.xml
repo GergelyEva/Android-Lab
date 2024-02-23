@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Story4"
+    android:orientation="vertical"
+    android:background="#F7EDDC">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="90dp"
+        android:paddingTop="15dp"
+        android:text="THE FARMER AND HIS SONS "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:padding="15dp"
+
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  A farmer had five sons. They were strong and hardworking. But they always quarrelled with one another. Sometimes, they even fought. The farmer wanted his sons to stop quarrelling and fighting. He wanted them to live in peace. Plain words of advice or scolding did not have much effect on these young people. The farmer always thought what to do to keep his sons united. One day he found an answer to the problem. So he called all his sons together. He showed them a bundle of sticks and said, “I want any of you to break these sticks without separating them from the bundle.” Each of the five sons tried one by one. They used their full strength and skill. But none of them could break the sticks. Then the old man separated the sticks and gave each of them just a single stick to break. They broke the sticks easily. The farmer said, “A single stick by itself is weak. It is strong as long as it is tied up in a bundle. Likewise, you will be strong if you are united. You will be weak if you are divided.” Moral: United we stand, Divided we fall." />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/story4" />
+
+</LinearLayout>
