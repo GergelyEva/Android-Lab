@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831190517797",
+    "project_id": "chatappwfirebase-acbb3",
+    "storage_bucket": "chatappwfirebase-acbb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831190517797:android:fa70fc72285b43020497cc",
+        "android_client_info": {
+          "package_name": "com.example.chatappfirebaseauthenticationrelatimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu62M6BNOHxHRNn2LJpZdwnWGtosQtnPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

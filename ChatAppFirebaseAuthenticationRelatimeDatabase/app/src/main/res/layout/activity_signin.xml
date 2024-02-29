@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninActivity"
+    android:background="@color/PrimaryVarient"
+    android:padding="10dp"
+>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chat"
+        />
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@id/image"
+        android:layout_marginVertical="5dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_style_box"
+
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/emailtext"
+        android:layout_marginVertical="5dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_style_box"
+        android:padding="15dp"
+        />
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordtext"
+        android:text="Sign in"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:text="New User...Sign up"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginVertical="10dp"
+        />
+</RelativeLayout>
