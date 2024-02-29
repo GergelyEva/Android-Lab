@@ -21,10 +21,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:padding="15dp"
-
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
+        android:padding="15dp"
         android:text="  There was a villager. He was illiterate. He did not know how to read and write. He often saw people wearing spectacles for reading books or papers. He thought, “If I have spectacles, I can also read like these people. I must go to town and buy a pair of spectacles for myself.” So one day he went to a town. He entered a spectacles shop He asked the shopkeeper for a pair of spectacles for reading. The shopkeeper gave him various pairs of spectacles and a book. The villager tried all the spectacles one by one. But he could not read anything. He told the shopkeeper that all those spectacles were useless for him. The shopkeeper gave him a doubtful look. Then he looked at the book. It was upside down! The shopkeeper said, “Perhaps you don’t know how to read.” The villager said, “No, I don’t. I want to buy spectacles so that I can read like others. But I can’t read with any of these spectacles.” The shopkeeper controlled his laughter with great difficulty when he learnt the real problem of his illiterate customer. He explained to the villager, “My dear friend, you are very ignorant. Spectacles don’t help to read or write. They only help you to see better. First of all you must learn to read and write.” Moral: Ignorance is blindness." />
 
     <ImageView
