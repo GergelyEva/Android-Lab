@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Client" />
+    <TextView
+        android:id="@+id/tvReceivedData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="no message"
+         />
+
+
+
+    <EditText
+        android:id="@+id/etServerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="server IP" />
+
+    <EditText
+        android:id="@+id/etServerPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Server Port" />
+
+    <Button
+        android:id="@+id/buttonconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to server"
+        android:onClick="onClickConnect" />
+
+</LinearLayout>

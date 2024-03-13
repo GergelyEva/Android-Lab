@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Services.Auto.NearbyServices">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="Services.NearbyActivity">
+
+        <!-- Company 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/company1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LANZS Autószerviz"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/company1location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agyag u.,10"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company1longlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48.001923, 21.723726"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company1number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+36704337993"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Company 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/company2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green Car Park Kft."
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/company2location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debreceni út 318-A"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company2longlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47.915041660826624, 21.724360787249484"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company2number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+36 20 943 6460"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Company 3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/company3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kovács Bosch Car Service"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/company3location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Csermely köz 10"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company3longlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47.953754037972175, 21.774052615448774"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/company3number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3642480203"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/carservice" />
+
+        <!-- Add more companies as needed -->
+    </LinearLayout>
+
+
+</FrameLayout>
