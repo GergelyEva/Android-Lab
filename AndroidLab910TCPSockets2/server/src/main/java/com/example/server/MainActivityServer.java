@@ -26,7 +26,7 @@ public class MainActivityServer extends AppCompatActivity {
         tvStatus = findViewById(R.id.tvServerStatus);
 
         tvServerName.setText(serverIP);
-        tvServerPort.setText(String.valueOf(serverPort)); // Convert int to String for setText()
+        tvServerPort.setText(String.valueOf(serverPort));
     }
 
     private ServerThread serverThread;
@@ -64,7 +64,7 @@ public class MainActivityServer extends AppCompatActivity {
                     Socket socket = serverSocket.accept();
                     count++;
 
-                    final Socket finalSocket = socket; // Declare final variable for use in inner class
+                    final Socket finalSocket = socket;
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -72,7 +72,7 @@ public class MainActivityServer extends AppCompatActivity {
                         }
                     });
 
-                    PrintWriter output_Server = new PrintWriter(socket.getOutputStream(), true); // Auto flush
+                    PrintWriter output_Server = new PrintWriter(socket.getOutputStream(), true);
                     output_Server.println("Welcome to Server" + count);
                     socket.close();
                 }

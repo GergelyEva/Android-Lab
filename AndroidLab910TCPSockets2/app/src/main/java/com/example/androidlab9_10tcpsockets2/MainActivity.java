@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
 
-                    // Close resources
                     br_input.close();
                     socket.close();
                 } catch (IOException e) {

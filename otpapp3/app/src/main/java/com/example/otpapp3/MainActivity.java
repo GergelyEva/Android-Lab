@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                                 @Override
                                 public void onCodeSent(@NonNull String s, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
                                     super.onCodeSent(s, forceResendingToken);
-                                    otpET.setVisibility(View.VISIBLE); // Make the OTP field visible
+                                    otpET.setVisibility(View.VISIBLE);
                                     actionBtn.setText("Verify OTP");
                                     id = s;
                                     otpSent = true;
