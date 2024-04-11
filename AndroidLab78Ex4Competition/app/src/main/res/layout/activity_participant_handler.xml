@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ParticipantHandler">
+
+    <LinearLayout
+        android:id="@+id/addplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/indexText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number:" />
+            <EditText
+                android:id="@+id/indexEditText"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/fntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Name:" />
+
+            <EditText
+                android:id="@+id/fn"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scoretext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score:" />
+
+            <EditText
+                android:id="@+id/score"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addbttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/sortbttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort" />
+
+        <Button
+            android:id="@+id/modifydeletebttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modify/Delete" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/sortlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sortname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name (ASC)" />
+
+        <Button
+            android:id="@+id/sortnamedesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name (DESC)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/sortgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grade (ASC)" />
+        <Button
+            android:id="@+id/sortgradedesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade (DESC)" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/scbigger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score Bigger" />
+            <Button
+                android:id="@+id/sclesser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score Less" />
+            <EditText
+                android:id="@+id/scorecomparisontext"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:hint="Insert score"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/modifydeletelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/nstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name starts:" />
+
+            <EditText
+                android:id="@+id/nstarttext"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:hint="name begins with: "
+                android:ems="10"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/deleteIndexEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Enter index to delete" />
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete participant" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/modifyIndexEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter index to modify" />
+
+        <EditText
+            android:id="@+id/modifyFirstNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="New name"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+            android:id="@+id/modifyScoreEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="New score" />
+
+            <Button
+                android:id="@+id/modifybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modify participant" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/plist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participant List:" />
+
+    </LinearLayout>
+
+</LinearLayout>

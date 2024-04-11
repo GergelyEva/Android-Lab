@@ -14,18 +14,13 @@
   </ol>
 </details>
 
-<!-- DESPRE PROIECT -->
-## Despre proiect
 
-La inceperea programului, va aparea fereastra Start, de unde utilizatorul va alege ce doreste sa afiseze, Inventarul sau Gestiunea Comenzilor. Dand click pe butoane, se va afisa fereastra de Inventar respectiv Gestiune. 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Lab 1
-<h4 align="centre">Lab 1</h4>
 
-<p>This is the first lab of Android Studio, that is meant to evaluate Java skills. </p>>
+<p>This is the first lab of Android Studio, that is meant to evaluate Java skills. </p>
 
 1) Write a Java program to get a number from the user and print whether it is positive or negative
 2) Write a Java program to calculate the average value of array elements.
@@ -64,8 +59,6 @@ Display the sale prices of all instance.
 
 ### Lab 3
 
-<h4 align="centre">Lab 3</h4>
-
 <h4 align="left">Couunter app</h4>
 File name: androidlab3
 
@@ -76,8 +69,6 @@ File name: androidlab3
 
 
 ### Lab 4
-
-<h4 align="centre">Lab 4</h4>
 
 <h5 align="left">SimpleCalc app</h5>
 File name: AndroidLab4Calculator
@@ -94,20 +85,18 @@ Simulate a book app with at least 4 chapters. Each chapter has the possibility o
 
 ### Lab 5-6
 
-<h4 align="centre">Lab 5-6</h4>
-
 <h5 align="left">Intents app</h5>
-File name:
+File name: AndroidLaborator56Intentions
 
 Test at least 3 different intentions
 
 <h5 align="left">Phone book app</h5>
-File name:
+File name: AndroidLaborator56PhoneBookApp
 
 Add new contacts, edit their details.
 
 <h5 align="left">Chat app</h5>
-File name:
+File name: ChatAppFirebaseAuthenticationRelatimeDatabase
 !This one was built using Firebase, instead of intents. 
 
 Create a small chat between 2 users using intents. Use text-file, buttons etc. Use at least 3 different design elements.
@@ -117,24 +106,22 @@ Create a small chat between 2 users using intents. Use text-file, buttons etc. U
 
 ### Lab 7-8
 
-<h4 align="centre">Lab 7-8</h4>
-
 
 <h5 align="left">Broadcast Receiver app</h5>
-File name:
+File name: AndroidLab78Battery2 + AndroidLab78Battery2BroadcastReceiverApp
 
 Send broadcasts when the bacttery changed and when the battery is low.
 
 <h5 align="left">Stop watch app</h5>
-File name:
+File name: AndroidLab78StopWatch
 
 <h5 align="left">Tic Tac Toe game (X & 0)</h5>
-File name:
+File name: AndroidLab78TicTacToe
 In the backend, the game will maintain a 2-D array to save the current state of the 3x3 grid. A function will be made to check if the box that's clicked by the player in the displaying grid is empty or not and will decide to put up an image of O if the previous one was X and vice versa. And when the consecutive images match, the game
 ends.
 
 <h5 align="left">Contest app</h5>
-File name:
+File name: AndroidLab78Ex4Competition
 
 At the annual programming competition, the evaluation committee records in a list the score obtained by each participant.
 The following information is recorded about each participant: Name, Surname, Score. Each participant must solve 10 problems, the
@@ -147,7 +134,7 @@ d) Allows the display of participants filtered by a property (those who have a s
 e) Allows sorting of participants by: name or by score (ascending/descending)
 
 <h5 align="left">Voting app</h5>
-File name:
+File name: otpapp3 (with Firebase OTP), otpapp4
 
 Standing in long queues and waiting for your turn for voting is no less than a challenge. This is where the online voting system comes into play. It will click the snap of the voters and verify it with the already existing data. And once the identity is confirmed, OTP (One Time Password) will be sent to their phone numbers. Subsequently, the voters can vote in a hassle-free manner.
 This will have two modules- admin and user. The admin will create and schedule voting and users will vote. There will be OTP generation and voting.
@@ -156,16 +143,14 @@ This will have two modules- admin and user. The admin will create and schedule v
 
 
 ### Lab 9-10
-<h4 align="centre">Lab 9-10</h4>
-
 
 <h5 align="left">Http request using okHttp with Json</h5>
-File name:
+File name: AndroidLab910OkHTTPJSON
 
 <h5 align="left">Http request using vollay with Json</h5>
-File name:
+File name: AndroidLab910VolleyJSON
 
 <h5 align="left">Send & Receive data from Android to PC (TCP Sockets)</h5>
-File name:
+File name: AndroidLab910TCPSockets2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
