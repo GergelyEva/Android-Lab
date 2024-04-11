@@ -21,7 +21,7 @@
 ### Lab 1
 
 <p>This is the first lab of Android Studio, that is meant to evaluate Java skills. </p>
-
+<pre>
 1) Write a Java program to get a number from the user and print whether it is positive or negative
 2) Write a Java program to calculate the average value of array elements.
 3) Write a Java method to find all prime numbers less than 100.
@@ -53,6 +53,7 @@ Perform the following within the main method:
 •Create two instances of the Ford class and initialize all the fields with appropriate values. 
 •Create an instance of Car class and initialize all the fields with appropriate values.
 Display the sale prices of all instance.
+</pre>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,10 +62,10 @@ Display the sale prices of all instance.
 
 <h4 align="left">Couunter app</h4>
 File name: androidlab3
-
+<pre>
 • The "Counter" app will consist of two buttons and one text view. When the first button is clicked, it will display a short message, or toast, on the screen.
 • Clicking on the second button will increase a click counter; the total count of mouse clicks will be displayed in the text view.
-
+</pre>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -96,8 +97,8 @@ File name: AndroidLaborator56PhoneBookApp
 Add new contacts, edit their details.
 
 <h5 align="left">Chat app</h5>
-File name: ChatAppFirebaseAuthenticationRelatimeDatabase
-!This one was built using Firebase, instead of intents. 
+File name: ChatAppFirebaseAuthenticationRelatimeDatabase <br>
+!This one was built using Firebase, instead of intents. <br>
 
 Create a small chat between 2 users using intents. Use text-file, buttons etc. Use at least 3 different design elements.
 
@@ -117,12 +118,13 @@ File name: AndroidLab78StopWatch
 
 <h5 align="left">Tic Tac Toe game (X & 0)</h5>
 File name: AndroidLab78TicTacToe
+
 In the backend, the game will maintain a 2-D array to save the current state of the 3x3 grid. A function will be made to check if the box that's clicked by the player in the displaying grid is empty or not and will decide to put up an image of O if the previous one was X and vice versa. And when the consecutive images match, the game
 ends.
 
 <h5 align="left">Contest app</h5>
 File name: AndroidLab78Ex4Competition
-
+<pre>
 At the annual programming competition, the evaluation committee records in a list the score obtained by each participant.
 The following information is recorded about each participant: Name, Surname, Score. Each participant must solve 10 problems, the
 maximum points for each problem is 10.
@@ -132,7 +134,7 @@ b) Update existing participant
 C) Delete participants
 d) Allows the display of participants filtered by a property (those who have a score lower than a given value, those with names starting with a given letter, etc.)
 e) Allows sorting of participants by: name or by score (ascending/descending)
-
+</pre>
 <h5 align="left">Voting app</h5>
 File name: otpapp3 (with Firebase OTP), otpapp4
 
