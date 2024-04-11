@@ -21,39 +21,37 @@
 ### Lab 1
 
 <p>This is the first lab of Android Studio, that is meant to evaluate Java skills. </p>
-<pre>
-1) Write a Java program to get a number from the user and print whether it is positive or negative
-2) Write a Java program to calculate the average value of array elements.
-3) Write a Java method to find all prime numbers less than 100.
-4) Write a program that implement the concept of Encapsulation.
-5) a) Create a super class called Car.
-The Car class has the following fields and methods:
-•int: speed;
-•double: regularPrice;
-•String: color;
-•doubleget: SalePrice():
-b) Create a sub class of Car class and name it as Truck.
-The Truck class has the following fields and methods.
-•intweight;
-•double: getSalePrice(); Extra information:if weight>2000,10% discount; otherwise,20% discount.
-c) Create a subclass of Car class and name it as Ford.
-The Ford class has the following fields and methods:
-•int: year;
-•int: manufacturerDiscount;
-• double: getSalePrice(); 
-Extra information: From the saleprice from Car class, subtract the manufacturerDiscount.
-d) Create a subclass of Car class and name it as Sedan.
-The Sedan class has the following fields and methods:
-•int: length;
-•doubleget: SalePrice();
-Extra information: if length>20feet, 5%discount; otherwise, 10%discount
-e) Create MyOwnAutoShop class which contains the main method. 
-Perform the following within the main method:
-•Create an instance of Sedan class and initialize all the fields with appropriate values.
-•Create two instances of the Ford class and initialize all the fields with appropriate values. 
-•Create an instance of Car class and initialize all the fields with appropriate values.
-Display the sale prices of all instance.
-</pre>
+1) Write a Java program to get a number from the user and print whether it is positive or negative <br>
+2) Write a Java program to calculate the average value of array elements.<br>
+3) Write a Java method to find all prime numbers less than 100.<br>
+4) Write a program that implement the concept of Encapsulation.<br>
+5) a) Create a super class called Car.<br>
+The Car class has the following fields and methods:<br>
+•int: speed;<br>
+•double: regularPrice;<br>
+•String: color;<br>
+•doubleget: SalePrice():<br>
+b) Create a sub class of Car class and name it as Truck.<br>
+The Truck class has the following fields and methods.<br>
+•intweight;<br>
+•double: getSalePrice(); Extra information:if weight>2000,10% discount; otherwise,20% discount.<br>
+c) Create a subclass of Car class and name it as Ford.<br>
+The Ford class has the following fields and methods:<br>
+•int: year;<br>
+•int: manufacturerDiscount;<br>
+• double: getSalePrice(); <br>
+Extra information: From the saleprice from Car class, subtract the manufacturerDiscount.<br>
+d) Create a subclass of Car class and name it as Sedan.<br>
+The Sedan class has the following fields and methods:<br>
+•int: length;<br>
+•doubleget: SalePrice();<br>
+Extra information: if length>20feet, 5%discount; otherwise, 10%discount<br>
+e) Create MyOwnAutoShop class which contains the main method. <br>
+Perform the following within the main method:<br>
+•Create an instance of Sedan class and initialize all the fields with appropriate values.<br>
+•Create two instances of the Ford class and initialize all the fields with appropriate values. <br>
+•Create an instance of Car class and initialize all the fields with appropriate values.<br>
+Display the sale prices of all instance.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,10 +60,10 @@ Display the sale prices of all instance.
 
 <h4 align="left">Couunter app</h4>
 File name: androidlab3
-<pre>
-• The "Counter" app will consist of two buttons and one text view. When the first button is clicked, it will display a short message, or toast, on the screen.
-• Clicking on the second button will increase a click counter; the total count of mouse clicks will be displayed in the text view.
-</pre>
+
+• The "Counter" app will consist of two buttons and one text view. When the first button is clicked, it will display a short message, or toast, on the screen.<br>
+• Clicking on the second button will increase a click counter; the total count of mouse clicks will be displayed in the text view.<br>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -124,17 +122,16 @@ ends.
 
 <h5 align="left">Contest app</h5>
 File name: AndroidLab78Ex4Competition
-<pre>
-At the annual programming competition, the evaluation committee records in a list the score obtained by each participant.
-The following information is recorded about each participant: Name, Surname, Score. Each participant must solve 10 problems, the
-maximum points for each problem is 10.
-Create an application that allows the organizing committee to:
-a) Add participants
-b) Update existing participant
-C) Delete participants
-d) Allows the display of participants filtered by a property (those who have a score lower than a given value, those with names starting with a given letter, etc.)
-e) Allows sorting of participants by: name or by score (ascending/descending)
-</pre>
+
+At the annual programming competition, the evaluation committee records in a list the score obtained by each participant.<br>
+The following information is recorded about each participant: Name, Surname, Score.<br>
+Create an application that allows the organizing committee to:<br>
+a) Add participants<br>
+b) Update existing participant<br>
+C) Delete participants<br>
+d) Allows the display of participants filtered by a property (those who have a score lower than a given value, those with names starting with a given letter, etc.)<br>
+e) Allows sorting of participants by: name or by score (ascending/descending)<br>
+
 <h5 align="left">Voting app</h5>
 File name: otpapp3 (with Firebase OTP), otpapp4
 
